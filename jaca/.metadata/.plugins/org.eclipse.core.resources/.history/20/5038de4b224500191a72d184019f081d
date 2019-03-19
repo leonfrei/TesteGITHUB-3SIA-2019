@@ -1,0 +1,20 @@
+public class Principal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		boliche bola1 = new boliche("Azul", 2.75);
+		boliche bola2 = new boliche("Vermelho", 3.5);
+		boliche bola3 = new boliche("Branca", 3.25);
+		
+		
+		boliche maior = bola1.maiorBola(bola2, bola3);
+		System.out.println("A bola de maior raio é: "+maior.retornarDados());
+		
+		
+		
+		
+		
+	}
+
+}

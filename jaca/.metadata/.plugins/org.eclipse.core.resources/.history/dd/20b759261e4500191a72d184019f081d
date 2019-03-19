@@ -1,0 +1,40 @@
+public class boliche {
+	String corBola;
+	double raio;
+	double maiorBola = 0;
+
+public boliche(String corbola, double tamanho){
+	this.corBola = corbola;
+	this.raio = tamanho;
+}
+
+	public String maiorBola() {
+		
+		String Maior = "";
+		
+		if (raio > maiorBola) {
+			maiorBola = raio;
+			Maior = "A maior bola é: "+maiorBola;
+		}
+		
+		
+		return Maior;
+	}
+
+
+public String retornarDados(String Maior){
+	String aux = "";
+	
+	aux = Maior;
+	
+	return aux;                                    
+}
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,21 @@
+public class Principal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		boliche bola1 = new boliche("azul");
+		boliche bola2 = new boliche("Vermelho");
+		
+		
+		System.out.println(bola1.retornarDados());
+		System.out.println(bola2.retornarDados());
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

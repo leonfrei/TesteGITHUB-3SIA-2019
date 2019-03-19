@@ -1,0 +1,29 @@
+public class boliche {
+	String corBola;
+	double tamanho;
+	double maiorBola = 0;
+
+public boliche(String corbola, double tamanho){
+	this.corBola = corbola;
+	this.tamanho = tamanho;
+}
+
+	
+
+
+public String retornarDados(){
+	String aux = "";
+	
+	aux = corBola +"\n"+ tamanho;
+	
+	return aux;
+}
+
+
+
+
+
+
+
+
+}

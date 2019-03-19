@@ -1,0 +1,15 @@
+public class boliche {
+	String corbola;
+
+public boliche(String corbola){
+	
+}
+
+
+
+
+
+
+
+
+}
